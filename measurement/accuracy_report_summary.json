@@ -1,0 +1,15 @@
+{
+  "n": 90,
+  "undistorted": {
+    "MAE_width_mm": 5.29188888888889,
+    "MAE_height_mm": 3.322777777777777,
+    "MPE_width_pct": 6.181111111111112,
+    "MPE_height_pct": 6.1562222222222225
+  },
+  "raw_no_undistort": {
+    "MAE_width_mm": 4.774555555555556,
+    "MAE_height_mm": 2.9843333333333337,
+    "MPE_width_pct": 5.578555555555555,
+    "MPE_height_pct": 5.528555555555555
+  }
+}
