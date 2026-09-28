@@ -1,0 +1,10 @@
+opencv-contrib-python
+numpy
+matplotlib
+pycocotools
+torch
+torchvision
+Pillow
+pandas
+pyyaml
+tqdm
