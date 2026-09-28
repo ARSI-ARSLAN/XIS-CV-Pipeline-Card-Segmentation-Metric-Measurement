@@ -2,7 +2,7 @@
 
 End-to-end computer vision pipeline that **segments an ID-1 format card and measures its real-world width and height in millimetres** using a calibrated camera, Mask R-CNN instance segmentation, and a co-planar reference marker.
 
----
+----------
 
 ## What This System Does
 
