@@ -1,0 +1,25 @@
+target_object:
+  name: "ID-1 format card (e.g. credit/debit/loyalty card)"
+  real_width_mm: 85.60    # long side, ISO/IEC 7810 ID-1 standard
+  real_height_mm: 53.98   # short side
+  reference_marker_mm: 40.0   # ArUco marker side length (when available)
+
+calibration:
+  checkerboard_squares: [10, 8]   # number of squares (inner corners = squares-1 = 9x7)
+  checkerboard_inner_corners: [9, 7]
+  square_size_mm: 25.0
+  min_images: 20
+
+dataset:
+  n_images: 82
+  splits: {train: 0.70, val: 0.20, test: 0.10}
+  classes: ["card"]
+
+training:
+  architecture: "Mask R-CNN (ResNet-50-FPN), torchvision"
+  epochs: 30
+  batch_size: 4
+  lr: 0.005
+  momentum: 0.9
+  weight_decay: 0.0005
+  score_threshold: 0.7
